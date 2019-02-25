@@ -1,3 +1,2 @@
 # logs
-
-### A simple form page pure html and css!!
+A simple form page pure html and css!!

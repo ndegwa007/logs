@@ -1,10 +1,11 @@
 from openpyxl import Workbook
 
-workbook = Workbook()
+workbook = Workbook() 
 
-sheet = workbook.active
+sheet = workbook.active #activate excel sheets
+
 
 sheet["A1"] = "hello"
 sheet["B1"] = "world!"
 
-workbook.save(filename="hello_world.xlsx")
+workbook.save(filename="hello_world.xlsx") #create excel docs
